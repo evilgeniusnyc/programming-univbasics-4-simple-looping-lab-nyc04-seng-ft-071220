@@ -16,17 +16,8 @@ def loop_message_n_times(message,limit)
   end
 end
 
-#def output_array(array)
-#  array.each { |n| puts n }
-#  end 
-#end
-#end
-
-def return_string_array(array)
-  count = 0
-  new_array = []
-  while count < array.length do
-    array[count] = array[count].to_s
-    count += 1
+def output_array(array)
+  array.each { |n| puts n }
   end
 end
+
