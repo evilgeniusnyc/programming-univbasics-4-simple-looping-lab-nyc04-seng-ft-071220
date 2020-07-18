@@ -28,10 +28,8 @@ def return_string_array
   count
   new_array = [ ]
   while count < array.length do
-    array[count].to_s
-  count += 1 
-end
-  
-  
-  
+    new_array << array[count].to_s
+    count += 1 
+  end
+  new_array
 end
