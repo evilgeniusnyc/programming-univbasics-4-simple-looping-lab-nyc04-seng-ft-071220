@@ -27,7 +27,8 @@ end
 def return_string_array
   count
   while count < array.length
-  count +=log10
+  count += 1 
+  
   
   
 end
